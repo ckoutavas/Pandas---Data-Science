@@ -2,6 +2,7 @@
 
 group = df.groupby('A')
 dfs = [group.get_group(x) for x in group.groups]
+# dfs = [g for _,g in group]
 
 # you can also do
 
